@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<!--    配置bean
+        id:bean名称，保证唯一
+        class属性：设置bean的全类名
+-->
+    <bean id="helloworld" class="com.ayang.test.Hello">
+<!--        给属性赋值
+name:设置属性名
+value:bean值
+-->
+        <property name="name" value="Spring"/>
+    </bean>
+</beans>

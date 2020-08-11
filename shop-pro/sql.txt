@@ -1,0 +1,5 @@
+drop table if exists 'lmonkey_user';
+
+create table 'lmonkey_user'{
+
+};
