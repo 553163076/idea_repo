@@ -15,4 +15,12 @@ public class First {
         System.out.println("hello git ");
 
     }
+
+    @Override
+    public String toString() {
+        return "First{}";
+    }
+
+    public First() {
+    }
 }
